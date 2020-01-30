@@ -8,6 +8,7 @@ import Projects from "./pages/ProjectsPage";
 import Contact from "./pages/ContactPage";
 import SingleProject from "./pages/SingleProjectPage";
 import Languages from "./pages/LanguagesPage"
+import Certifications from "./pages/CertificationsPage"
 
 import { Route, Switch } from "react-router-dom";
 
@@ -29,6 +30,7 @@ class App extends Component {
           <Route path="/home" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/languages" component={Languages} />
+          <Route path="/certifications" component={Certifications} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/projects/:id" component={SingleProject} />

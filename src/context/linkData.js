@@ -12,8 +12,8 @@ export const linkData = [
     },
      {
         id: 3,
-        text: 'languages',
-        path: '/languages'
+        text: 'certifications',
+        path: '/certifications'
     },
 
     {
