@@ -20,7 +20,19 @@ export const items = [
 
              image: { fields: { file: { url: "img/project2.png" }} }
            }
-         }
+         },
+  {
+    sys: { id: 3 },
+
+    fields: {
+      title: "Restaurant GUI",
+      description:
+        "This project was created using C#/.NET. I had coded this for our group's final project in the .NET/C# class.",
+      featured: false,
+
+      image: { fields: { file: { url: "img/project3.png" } } }
+    }
+  }
          //{
          //   sys: { id: 2 },
 
