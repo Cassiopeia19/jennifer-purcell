@@ -10,11 +10,11 @@ export const linkData = [
         text: 'about',
         path: '/about'
     },
-     {
-        id: 3,
-        text: 'certifications',
-        path: '/certifications'
-    },
+    //  {
+    //     id: 3,
+    //     text: 'certifications',
+    //     path: '/certifications'
+    // },
 
     {
         id: 4,
