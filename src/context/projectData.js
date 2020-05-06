@@ -4,7 +4,7 @@ export const items = [
            fields: {
              title: "Manage My Finances",
              description:
-               "This project is being created using React, Java (Hibernate, Springboot, Thymeleaf, & Annotations), and H2 in-memory database.",
+               "This project is being created using React, Java (Hibernate, Springboot, Thymeleaf, & Annotations), and mySQL database.",
              featured: true,
              image: { fields: { file: { url: "img/project1.png" } } }
            }
