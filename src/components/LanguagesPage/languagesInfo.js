@@ -23,8 +23,8 @@ export default function LanguagesInfo() {
             <img src={javascript} alt="javascript" />
             <img src={mysql} alt="mysql" />
             <img src={sql} alt="sql" />
-            <img src={csharp} alt="c#" />
-            <img src={php} alt="php" />
+            {/* <img src={csharp} alt="c#" />
+            <img src={php} alt="php" /> */}
             <img src={html5} alt="html5" />
             <img src={css3} alt="css3" />
 
