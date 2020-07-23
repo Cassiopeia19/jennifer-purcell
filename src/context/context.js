@@ -3,8 +3,7 @@ import { linkData } from "./linkData";
 import { socialData } from "./socialData";
 import { items } from "./projectData";
 const ProjectContext = React.createContext();
-//Provider
-//Consumer
+
 class ProjectProvider extends Component {
   state = {
     sidebarOpen: false,
