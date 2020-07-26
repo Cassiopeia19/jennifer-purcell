@@ -1,1 +1,1 @@
-This portfolio website was created using ReactJS.
+This portfolio website was created using React.
