@@ -16,174 +16,110 @@ export const items = [
              title: "My Portfolio",
              description:
                "This project was created using React.",
-             featured: false,
+             featured: true,
 
              image: { fields: { file: { url: "img/project2.png" }} }
            }
          },
-  {
-    sys: { id: 3 },
+  // {
+  //   sys: { id: 2 },
 
-    fields: {
-      title: "Restaurant GUI",
-      description:
-        "This project was created using C#/.NET. I had coded this for our group's final project in the .NET/C# class.",
-      featured: false,
+  //   fields: {
+  //     title: "Restaurant GUI",
+  //     description:
+  //       "This school-related project was created using C#/.NET. I had coded this for our group's final project in the .NET/C# class.",
+  //     featured: false,
 
-      image: { fields: { file: { url: "img/project3.png" } } }
-    }
-  }
-         //{
-         //   sys: { id: 2 },
+  //     image: { fields: { file: { url: "img/project3.png" } } }
+  //   }
+  // },
+        {
+          sys: { id: 2},
 
-         //   fields: {
-         //     title: "htc 10 - black",
-         //     price: 30,
-         //     company: "htc",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
+          fields: {
+            title: "Will's Grill",
+            description:
+              "This was a group project for my Web Design class at UMSL. I helped with designing the landing page. Also, I alone created" + 
+              "the about page, the community support page, and the contact page.",
+            featured: true,
 
-         //     image: { fields: { file: { url: "img/product-2.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 3 },
+            image: { fields: { file: { url: "img/wills-grill.png" } } }
+          }
+        },       
+        
+         {
+           sys: { id: 3 },
 
-         //   fields: {
-         //     title: "htc 10 - white",
-         //     price: 15,
-         //     company: "htc",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
+           fields: {
+             title: "food diary",
+             description:
+               "This Java app writes to a csv file, where a user can create a new one or append to an existing one .",
+             featured: true,
 
-         //     image: { fields: { file: { url: "img/product-3.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 4 },
+             image: { fields: { file: { url: "img/no-image.png" } } }
+           }
+         },
 
-         //   fields: {
-         //     title: "samsung s7 - black",
-         //     price: 45,
-         //     company: "google",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
+        {
+          sys: { id: 4 },
 
-         //     image: { fields: { file: { url: "img/product-4.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 5 },
+          fields: {
+            title: "calories burned",
+            description:
+              "This is a system, coded in Java, to track calories burned (both net calorie burn/mile & total calorie burn/mile) based upon activity (running or walking) and number of miles." +
+              "The output appears in a csv(Excel) file called 'activityLogDetails'.",
+            featured: true,
 
-         //   fields: {
-         //     title: "samsung galaxy A8 - black",
-         //     price: 55,
-         //     company: "samsung",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
+            image: { fields: { file: { url: "img/no-image.png" } } }
+          }
+        },
+         {
+           sys: { id: 5 },
 
-         //     image: { fields: { file: { url: "img/product-5.png" } } }
-         //   }
-         // },
+           fields: {
+             title: "targeted pairs",
+             description:
+               "My Java Challenge: To find all of the pairs of numbers that sum to the target number. Two parameters: Array of integers (negatives, positives / sorted or unsorted)" + 
+               "and a single integer (target number). I utilized a TreeSet so that I could have the an ordered set. I also used Random, so that the positive and negative integers could" +  
+               "be randomly selected, as well as 'no repeats'. The user will be prompted to enter a target number. Once entered, the app will determine which pairs sum up to that target" +
+               "number, print out the pairs, and then print out the total number of possible pairs.",
+             featured: false,
 
-         // {
-         //   sys: { id: 6 },
+             image: { fields: { file: { url: "img/no-image.png" } } }
+           }
+         },
 
-         //   fields: {
-         //     title: "fuji X100s photo camera",
-         //     price: 90,
-         //     company: "fuji",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: true,
+         
+         {
+           sys: { id: 6 },
 
-         //     image: { fields: { file: { url: "img/product-6.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 7 },
+           fields: {
+             title: "count the twos",
+             description:
+               "This Java challenge: given one parameter, i.e. 23, from zero to 23, how many twos? (I have modified this considerably.) In my modifications, I wanted to show that I could:" +
+                "   generate an ordered, random, and with no repeats array--with both positive and negative integers, " +
+                "2. expand the range of numbers that could be possibly chosen, and " +
+                "3. convert a treeset to an int array, thus allowing for the method(countTwos) to check for how many twos occur within the array.",
+             featured: false,
 
-         //   fields: {
-         //     title: "canon Eos 30 photo camera",
-         //     price: 120,
-         //     company: "canon",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
+             image: { fields: { file: { url: "img/no-image.png" } } }
+           }
+         },
+         {
+           sys: { id: 7 },
 
-         //     image: { fields: { file: { url: "img/product-7.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 8 },
+           fields: {
+             title: "fizz-buzz-bang",
+             description:
+               "This was coded in Java. This app allows for numbers 1 thru 100 to be looked at to print out a word if: " +
+                "it is divisible by 3 = 'Fizz', it is divisible by 5 = 'Buzz', it is divisible by 7 = " +
+                "'Bang', it is divisible by 15 = 'FizzBuzz', it is divisible by 21 = 'FizzBuzzBang'. " +
+                "It will also print out the number associated with the word, so that you can see if the calculation is correct. " +
+                "This also tallys the counts of each, just to give the statistics.The count variables are static field variables" + 
+                "that have each been initialized as '0'.",
+             featured: false,
 
-         //   fields: {
-         //     title: "nikon D 3100 photo camera",
-         //     price: 55,
-         //     company: "nikon",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
-
-         //     image: { fields: { file: { url: "img/product-8.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 9 },
-
-         //   fields: {
-         //     title: "acer desktop computer",
-         //     price: 35,
-         //     company: "acer",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: true,
-
-         //     image: { fields: { file: { url: "img/product-9.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 10 },
-
-         //   fields: {
-         //     title: "hp desktop computer",
-         //     price: 75,
-         //     company: "hp",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
-
-         //     image: { fields: { file: { url: "img/product-10.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 11 },
-
-         //   fields: {
-         //     title: "lenovo desktop computer",
-         //     price: 110,
-         //     company: "lenovo",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
-         //     image: { fields: { file: { url: "img/product-11.png" } } }
-         //   }
-         // },
-         // {
-         //   sys: { id: 12 },
-
-         //   fields: {
-         //     title: "dell desktop computer",
-         //     price: 28,
-         //     company: "dell",
-         //     description:
-         //       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-         //     featured: false,
-         //     image: { fields: { file: { url: "img/product-12.png" } } }
-         //   }
-         //}
+             image: { fields: { file: { url: "img/no-image.png" } } }
+           }
+         }
        ];
