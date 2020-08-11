@@ -28,7 +28,7 @@ export const items = [
             title: "Recipes By Ingredients",
             description:
               "This project is my Capstone project for LaunchCode's Liftoff program. " +
-              "It is entirely coded in React, utilizes Firebase's authentication, social" +
+              "It is entirely coded in React, utilizes Firebase's authentication, social " +
                "logins, & database, and will incorporate an API.",
             featured: true,
 
