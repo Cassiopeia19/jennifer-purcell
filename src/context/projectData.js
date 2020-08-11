@@ -21,6 +21,20 @@ export const items = [
              image: { fields: { file: { url: "img/project2.png" }} }
            }
          },
+        {
+          sys: { id: 2 },
+
+          fields: {
+            title: "Recipes By Ingredients",
+            description:
+              "This project is my Capstone project for LaunchCode's Liftoff program. " +
+              "It is entirely coded in React, utilizes Firebase's authentication, social" +
+               "logins, & database, and will incorporate an API.",
+            featured: true,
+
+            image: { fields: { file: { url: "img/project1.png" } } }
+          }
+        },
   // {
   //   sys: { id: 2 },
 
@@ -34,7 +48,7 @@ export const items = [
   //   }
   // },
         {
-          sys: { id: 2},
+          sys: { id: 3 },
 
           fields: {
             title: "Will's Grill",
@@ -48,7 +62,7 @@ export const items = [
         },       
         
          {
-           sys: { id: 3 },
+           sys: { id: 4 },
 
            fields: {
              title: "food diary",
@@ -61,7 +75,7 @@ export const items = [
          },
 
         {
-          sys: { id: 4 },
+          sys: { id: 5 },
 
           fields: {
             title: "calories burned",
@@ -74,7 +88,7 @@ export const items = [
           }
         },
          {
-           sys: { id: 5 },
+           sys: { id: 6 },
 
            fields: {
              title: "targeted pairs",
@@ -91,7 +105,7 @@ export const items = [
 
          
          {
-           sys: { id: 6 },
+           sys: { id: 7 },
 
            fields: {
              title: "count the twos",
@@ -106,7 +120,7 @@ export const items = [
            }
          },
          {
-           sys: { id: 7 },
+           sys: { id: 8 },
 
            fields: {
              title: "fizz-buzz-bang",
