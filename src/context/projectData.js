@@ -25,11 +25,11 @@ export const items = [
           sys: { id: 2 },
 
           fields: {
-            title: "Recipes By Ingredients",
+            title: "Reciplia",
             description:
-              "This project is my Capstone project for LaunchCode's Liftoff program. " +
-              "It is entirely coded in React, utilizes Firebase's authentication, social " +
-               "logins, & database, and will incorporate an API.",
+              "This is my Capstone project for LaunchCode's Liftoff program. " +
+              "It is entirely coded in React, utilizes Firebase's authentication for social " +
+               "logins, & incorporates an API.",
             featured: true,
 
             image: { fields: { file: { url: "img/project1.png" } } }
