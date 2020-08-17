@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const socialData = [
          {
@@ -12,5 +12,10 @@ export const socialData = [
            id: 2,
            icon: <FaGithub className="icon" />,
            url: "https://github.com/Cassiopeia19"
+         },
+         {
+          id: 3,
+          icon: <FaTwitter className="icon" />,
+          url: "https://twitter.com/JenniferLPurce1"
          }
        ];
