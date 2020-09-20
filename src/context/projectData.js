@@ -29,10 +29,10 @@ export const items = [
             description:
               "This is my Capstone project for LaunchCode's Liftoff program. " +
               "It is entirely coded in React, utilizes Firebase's authentication for social " +
-               "logins, & incorporates an API.",
+               "logins, utilizes Firebase's Realtime database & incorporates an API.",
             featured: true,
 
-            image: { fields: { file: { url: "img/project1.png" } } }
+            image: { fields: { file: { url: "img/project4.jpg" } } }
           }
         },
   // {
