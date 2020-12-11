@@ -9,6 +9,7 @@ import sql from "../../images/sql.jfif"
 // import php from "../../images/php.png"
 import html5 from "../../images/html5.png"
 import css3 from "../../images/css3.jfif"
+import firebase from "../../images/firebase.jpg"
 
 export default function LanguagesInfo() {
   return (
@@ -20,6 +21,7 @@ export default function LanguagesInfo() {
             <p className="text-lead tex=t-muted my-3">
             <img src={java} alt="java" />
             <img src={react} alt="react" />
+            <img src={firebase} alt="firebase" />
             <img src={javascript} alt="javascript" />
             <img src={mysql} alt="mysql" />
             <img src={sql} alt="sql" />
