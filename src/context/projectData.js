@@ -53,10 +53,11 @@ export const items = [
           fields: {
             title: "Gametime",
             description:
-              "This is a mock ecommerce app for users to select board games that they would like to purchase",
+              "This is a mock ecommerce app for users to select board games that they would like to purchase. It is entirely coded in React, " + 
+              " it utilizes Auth0 for user login, and it incorporates an API.",
             featured: true,
 
-            image: { fields: { file: { url: "img/project1.png" } } }
+            image: { fields: { file: { url: "img/gametime.png" } } }
           }
         },       
         {
