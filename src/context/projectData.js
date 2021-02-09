@@ -1,14 +1,5 @@
 export const items = [
-        //  {
-        //    sys: { id: 0 },
-        //    fields: {
-        //      title: "Manage My Finances",
-        //      description:
-        //        "This project is being created using React, Java (Hibernate, Springboot, Thymeleaf, & Annotations), and mySQL database.",
-        //      featured: true,
-        //      image: { fields: { file: { url: "img/project1.png" } } }
-        //    }
-        //  },
+        
          {
            sys: { id: 1 },
 
@@ -16,6 +7,7 @@ export const items = [
              title: "My Portfolio",
              description:
                "This project was created using React.",
+             link2: "https://github.com/Cassiopeia19/jennifer-purcell",
              featured: true,
 
              image: { fields: { file: { url: "img/project2.png" }} }
@@ -30,23 +22,13 @@ export const items = [
               "This is my Capstone project for LaunchCode's Liftoff program. " +
               "It is entirely coded in React, utilizes Firebase's authentication for social " +
                "logins, utilizes Firebase's Realtime database & incorporates an API.",
+            link: "https://reciplia.herokuapp.com/login",
+            link2: "https://github.com/Cassiopeia19/recipes-by-ingredients/tree/master",
             featured: true,
 
             image: { fields: { file: { url: "img/project4.jpg" } } }
           }
         },
-  // {
-  //   sys: { id: 2 },
-
-  //   fields: {
-  //     title: "Restaurant GUI",
-  //     description:
-  //       "This school-related project was created using C#/.NET. I had coded this for our group's final project in the .NET/C# class.",
-  //     featured: false,
-
-  //     image: { fields: { file: { url: "img/project3.png" } } }
-  //   }
-  // },
   {
           sys: { id: 3 },
 
@@ -55,19 +37,45 @@ export const items = [
             description:
               "This is a mock ecommerce app for users to select board games that they would like to purchase. It is entirely coded in React, " + 
               " it utilizes Auth0 for user login, and it incorporates an API.",
+            link: "https://its-gametime.herokuapp.com/",
+            link2: "https://github.com/Cassiopeia19/game-time/tree/master",
             featured: true,
 
             image: { fields: { file: { url: "img/gametime.png" } } }
           }
-        },       
+        }, 
+         {
+           sys: { id: 4 },
+           fields: {
+             title: "Manage My Finances",
+             description:
+               "This unfinished project was created using React, Java (Hibernate, Springboot, Thymeleaf, & Annotations), and mySQL database.",
+             featured: true,
+             link2: "https://github.com/Cassiopeia19/manage-my-finances",
+             image: { fields: { file: { url: "img/project0.jpg" } } }
+           }
+         }, 
         {
-          sys: { id: 4 },
+          sys: { id: 5 },
+
+          fields: {
+            title: "Restaurant GUI",
+            description:
+              "This school-related project was created using C#/.NET. I had coded this for our group's final project in the .NET/C# class.",
+            featured: false,
+            link2: "https://github.com/Cassiopeia19/Restaurant-GUI",
+            image: { fields: { file: { url: "img/project3.png" } } }
+          }
+        },     
+        {
+          sys: { id: 6 },
 
           fields: {
             title: "Will's Grill",
             description:
               "This was a group project for my Web Design class at UMSL. I helped with designing the landing page. Also, I alone created" + 
               "the about page, the community support page, and the contact page.",
+            link2: "https://github.com/Cassiopeia19/Wills-Grill",
             featured: true,
 
             image: { fields: { file: { url: "img/wills-grill.png" } } }
@@ -75,20 +83,20 @@ export const items = [
         },       
         
          {
-           sys: { id: 5 },
+           sys: { id: 7 },
 
            fields: {
              title: "food diary",
              description:
                "This Java app writes to a csv file, where a user can create a new one or append to an existing one .",
              featured: true,
-
+             link2: "https://github.com/Cassiopeia19/FoodDiary",
              image: { fields: { file: { url: "img/no-image.png" } } }
            }
          },
 
         {
-          sys: { id: 6 },
+          sys: { id: 8 },
 
           fields: {
             title: "calories burned",
@@ -96,12 +104,12 @@ export const items = [
               "This is a system, coded in Java, to track calories burned (both net calorie burn/mile & total calorie burn/mile) based upon activity (running or walking) and number of miles." +
               "The output appears in a csv(Excel) file called 'activityLogDetails'.",
             featured: true,
-
+            link2: "https://github.com/Cassiopeia19/CaloriesBurned",
             image: { fields: { file: { url: "img/no-image.png" } } }
           }
         },
          {
-           sys: { id: 7 },
+           sys: { id: 9 },
 
            fields: {
              title: "targeted pairs",
@@ -111,14 +119,14 @@ export const items = [
                "be randomly selected, as well as 'no repeats'. The user will be prompted to enter a target number. Once entered, the app will determine which pairs sum up to that target" +
                "number, print out the pairs, and then print out the total number of possible pairs.",
              featured: false,
-
+             link2: "https://github.com/Cassiopeia19/Targeted-Pairs",
              image: { fields: { file: { url: "img/no-image.png" } } }
            }
          },
 
          
          {
-           sys: { id: 8 },
+           sys: { id: 10 },
 
            fields: {
              title: "count the twos",
@@ -128,12 +136,12 @@ export const items = [
                 "2. expand the range of numbers that could be possibly chosen, and " +
                 "3. convert a treeset to an int array, thus allowing for the method(countTwos) to check for how many twos occur within the array.",
              featured: false,
-
+             link2: "https://github.com/Cassiopeia19/Count-the-twos",
              image: { fields: { file: { url: "img/no-image.png" } } }
            }
          },
          {
-           sys: { id: 9 },
+           sys: { id: 11 },
 
            fields: {
              title: "fizz-buzz-bang",
@@ -142,10 +150,10 @@ export const items = [
                 "it is divisible by 3 = 'Fizz', it is divisible by 5 = 'Buzz', it is divisible by 7 = " +
                 "'Bang', it is divisible by 15 = 'FizzBuzz', it is divisible by 21 = 'FizzBuzzBang'. " +
                 "It will also print out the number associated with the word, so that you can see if the calculation is correct. " +
-                "This also tallys the counts of each, just to give the statistics.The count variables are static field variables" + 
+                "This also tallys the counts of each, just to give the statistics. The count variables are static field variables " + 
                 "that have each been initialized as '0'.",
              featured: false,
-
+             link2: "https://github.com/Cassiopeia19/FizzBuzzBang",
              image: { fields: { file: { url: "img/no-image.png" } } }
            }
          }

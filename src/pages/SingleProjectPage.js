@@ -17,6 +17,8 @@ export default function SingleProjectPage() {
           }
           const {
             description,
+            link,
+            link2,
             title,
             image
           } = singleProject;
@@ -37,6 +39,9 @@ export default function SingleProjectPage() {
                       some info about this project :
                     </p>
                     <p>{description}</p>
+                    <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+                    <br/>
+                    <a href={link2} target="_blank" rel="noopener noreferrer">{link2}</a>
                     <Link
                       to="/projects"
                       className="main-link"
