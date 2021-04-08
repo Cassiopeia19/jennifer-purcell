@@ -74,7 +74,7 @@ export const items = [
              link2: "https://github.com/Cassiopeia19/rewardsChallenge",
              image: { fields: {file: { url: "img/rewards.jpg"}}}
            }
-         }
+         },
         {
           sys: { id: 7 },
 
