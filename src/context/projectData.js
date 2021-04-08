@@ -49,14 +49,34 @@ export const items = [
            fields: {
              title: "Manage My Finances",
              description:
-               "This unfinished project was created using React, Java (Hibernate, Springboot, Thymeleaf, & Annotations), and mySQL database.",
+               "This unfinished project was created using React, Java (Hibernate, Springboot with Beans & Annotations), and mySQL database.",
              featured: true,
              link2: "https://github.com/Cassiopeia19/manage-my-finances",
              image: { fields: { file: { url: "img/project0.jpg" } } }
            }
          }, 
+         {
+           sys: {id: 5},
+           fields: {
+             title: "Tic Tac Toe",
+             description: "This project was created using React.",
+             featured: false,
+             link2: "https://github.com/Cassiopeia19/internship-challenge",
+             image: { fields: {file: { url: "img/tictactoe.jpg"}}}
+           }
+         },
+         {
+           sys: {id: 6},
+           fields: {
+             title: "Rewards",
+             description: "This project was created using React.",
+             featured: false,
+             link2: "https://github.com/Cassiopeia19/rewardsChallenge",
+             image: { fields: {file: { url: "img/rewards.jpg"}}}
+           }
+         }
         {
-          sys: { id: 5 },
+          sys: { id: 7 },
 
           fields: {
             title: "Restaurant GUI",
@@ -68,7 +88,7 @@ export const items = [
           }
         },     
         {
-          sys: { id: 6 },
+          sys: { id: 8 },
 
           fields: {
             title: "Will's Grill",
@@ -83,7 +103,7 @@ export const items = [
         },       
         
          {
-           sys: { id: 7 },
+           sys: { id: 9 },
 
            fields: {
              title: "food diary",
@@ -96,7 +116,7 @@ export const items = [
          },
 
         {
-          sys: { id: 8 },
+          sys: { id: 10 },
 
           fields: {
             title: "calories burned",
@@ -109,7 +129,7 @@ export const items = [
           }
         },
          {
-           sys: { id: 9 },
+           sys: { id: 11 },
 
            fields: {
              title: "targeted pairs",
@@ -126,7 +146,7 @@ export const items = [
 
          
          {
-           sys: { id: 10 },
+           sys: { id: 12 },
 
            fields: {
              title: "count the twos",
@@ -141,7 +161,7 @@ export const items = [
            }
          },
          {
-           sys: { id: 11 },
+           sys: { id: 13 },
 
            fields: {
              title: "fizz-buzz-bang",
