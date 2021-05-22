@@ -37,7 +37,7 @@ export const items = [
             description:
               "This is a mock ecommerce app for users to select board games that they would like to purchase. It is entirely coded in React, " + 
               " it utilizes Auth0 for user login, and it incorporates an API.",
-            link: "https://its-gametime.herokuapp.com/",
+           // link: "https://its-gametime.herokuapp.com/",
             link2: "https://github.com/Cassiopeia19/game-time/tree/master",
             featured: true,
 
@@ -49,7 +49,7 @@ export const items = [
            fields: {
              title: "Manage My Finances",
              description:
-               "This unfinished project was created using React, Java (Hibernate, Springboot with Beans & Annotations), and mySQL database.",
+               "This in-progress project is being created using React, Java (Hibernate, Springboot with Beans & Annotations), and mySQL database.",
              featured: true,
              link2: "https://github.com/Cassiopeia19/manage-my-finances",
              image: { fields: { file: { url: "img/project0.jpg" } } }
