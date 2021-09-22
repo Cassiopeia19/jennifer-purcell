@@ -27,11 +27,10 @@ export default function Info() {
               <p className="text-lead text-muted my-3">
                 * UMSL Alumni, with Bachelor's of Science in Information
                 Systems. <br />
-                * Hungry for continuing education on new-to-me coding languages
-                describes me best. <br />
-                * In my spare time, I enjoy crafting, vacationing to the
-                Caribbean, and occasionally extreme sports. <br />* I strive to
-                be the very best of what I can be.
+                * I'm currently pursuing my Master's degree in Information Systems and 
+                Technology, with focus on information security & business intelligence. <br />
+                * In my spare time, I enjoy crafting, gardeninig, and vacationing in the Caribbean. <br />
+                * I strive to be the very best of what I can be.
               </p>
               <Link to="/languages" className="main-link">
                 more info
