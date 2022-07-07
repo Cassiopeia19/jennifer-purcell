@@ -28,7 +28,7 @@ export default function Info() {
                 * UMSL Alumni, with Bachelor's of Science in Information
                 Systems. <br />
                 * I'm currently pursuing my Master's degree in Information Systems and 
-                Technology, with focus on information security & business intelligence. <br />
+                Technology, with focus on information security & cybersecurity. <br />
                 * In my spare time, I enjoy crafting, gardeninig, and vacationing in the Caribbean. <br />
                 * I strive to be the very best of what I can be.
               </p>
